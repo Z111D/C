@@ -3,7 +3,7 @@
 int main()
 {
     int a,b,c,d,e;
-    printf("输入三角行数：");
+    printf("Enter the number of line in star matrix:");
     scanf("%d",&a);
     for(e = 1;e <= 10;e++)
     {
