@@ -10,10 +10,10 @@ int main(void)
      {
           for(j=0;j<k-i;j++)
               printf(" ");
-          for(j=0;j<=i;j++)
-              printf("%c",'A'+j);
+          for(j=0;j<=i;j++)             
+              printf("%c",'A'+j);            //升序打印字母
           for(j=i-1;j>=0;j--)
-              printf("%c",'A'+j);
+              printf("%c",'A'+j);            //降序打印字母  
           printf("\n");
       }
  return(0);
