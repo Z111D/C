@@ -11,7 +11,7 @@ int main()
         a[i] = a[9 - i] + a[i];
         a[9 - i] = a[i] - a[9 - i];
         a[i] = a[i] - a[9 - i];
-        }                              //倒序
+        }                              //逆序
     for(i = 0;i <= 9;i++)
         printf("%c",a[i]);             //输出
     return 0;
