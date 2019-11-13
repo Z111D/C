@@ -9,7 +9,7 @@ int main()
 		cnt++;
 		ch = getchar();
 	}
-	for(i=0, j=cnt-1; i<cnt; i++, j--)	//i 从零开始所以为i < cnt
+	for(i=0, j=cnt-1; i<cnt; i++, j--)	//i 从零开始所以为 i < cnt
 			b[j]=a[i];
 	for(i=0; i<cnt; i++)
 		printf("%c", b[i]);
