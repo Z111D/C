@@ -6,7 +6,7 @@ void prime(int term);
 int main(void)
 {
     int num,i,term;
-    scanf("%d",&num);       //ÊäÈëÊı×ÖµÄ¸öÊı
+    scanf("%d",&num);       //è¾“å…¥çš„æ•°å­—ä¸ªæ•°
     for(i = 1;i <= num;i++)
     {
         scanf("%d",&term);
