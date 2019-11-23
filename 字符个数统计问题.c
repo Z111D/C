@@ -4,7 +4,7 @@ int main()
 {
     char a[99];
     int i,alpha = 0,digit = 0,other = 0;
-    for(i = 0;i < 98;i++)
+    for(i = 0;i < 99;i++)
     {
         a[i] = getchar();
         if(a[i] == '\n')break;
