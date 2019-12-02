@@ -9,9 +9,9 @@ int main()
             scanf("%d",(*(a + i) + j));
         }
     }
-    for(i = 0;i < 3;i++)            //每行
+    for(i = 0;i < 3;i++)            //every row
     {
-        for(j = 0;j < 4;j++)            //冒泡
+        for(j = 0;j < 4;j++)            //bubble
         {
             for(k = 0;k < 4 - j;k++)
             {
@@ -28,9 +28,9 @@ int main()
     {
         for(j = 0;j < 5;j++)
         {
-        printf("%5d\t",*(*(a + i) + j));        //输出
+        printf("%5d\t",*(*(a + i) + j));        //out put
         }
-        printf("\n");                           //换行
+        printf("\n");
     }
     return 0;
 }
