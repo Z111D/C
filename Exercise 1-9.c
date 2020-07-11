@@ -8,7 +8,7 @@ main()
         if (c  == ' ')
         {
             putchar(c);
-            while ((c = getchar()) == ' '); //û�뵽
+            while ((c = getchar()) == ' '); //重复空格不输出
         }
         putchar(c);
     }
