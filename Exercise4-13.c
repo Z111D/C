@@ -15,7 +15,7 @@ void reverser(char s[], int i, int len)
 		c = s[i];
 		s[i] = s[j];
 		s[j] = c;
-		reverser(s, ++i, len);
+		reverser(s, ++i, len); //是++1
 	}
 }
 
