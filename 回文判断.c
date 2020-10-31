@@ -14,7 +14,7 @@ int main()
 			j--;
 		}
 		else
-		break;
+			break;
 	}
 	if (i >= j)
 	{
